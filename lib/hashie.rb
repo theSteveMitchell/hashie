@@ -6,6 +6,7 @@ module Hashie
   autoload :Mash,           'hashie/mash'
   autoload :PrettyInspect,  'hashie/hash_extensions'
   autoload :Trash,          'hashie/trash'
+  autoload :Rash,           'hashie/rash'
 
   module Extensions
     autoload :Coercion,          'hashie/extensions/coercion'
@@ -19,5 +20,6 @@ module Hashie
     autoload :MethodWriter,      'hashie/extensions/method_access'
     autoload :StringifyKeys,     'hashie/extensions/key_conversion'
     autoload :SymbolizeKeys,     'hashie/extensions/key_conversion'
+    autoload :TrackChanges,      'hashie/extensions/track_changes'
   end
 end
